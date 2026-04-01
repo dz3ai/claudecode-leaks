@@ -5,6 +5,33 @@
 
 ---
 
+## 📑 Table of Contents
+
+### 3.3 Command System
+- [3.3.1 Command Interface Definition](#331-command-interface-definition) - PromptCommand, BuiltInCommand
+- [3.3.2 Command Implementation Patterns](#332-command-implementation-patterns) - Prompt-based vs Built-in commands
+- [3.3.3 Core Command Cases](#333-core-command-cases) - /commit, /review, /mcp
+- [3.3.4 Command Registry](#334-command-registry) - Command loading mechanism
+- [3.3.5 Command System Design Patterns Summary](#335-command-system-design-patterns-summary)
+
+### 3.4 Permission System
+- [3.4.1 Permission Check Flow](#341-permission-check-flow) - 5-layer security check mechanism
+- [3.4.2 Permission Rule Matching](#342-permission-rule-matching) - Rule engine and matching algorithms
+- [3.4.3 User Interaction Handling](#343-user-interaction-handling) - Permission prompts and decision processing
+- [3.4.4 Sandbox Mechanism](#344-sandbox-mechanism) - Isolated execution environment
+- [3.4.5 Permission System Design Patterns Summary](#345-permission-system-design-patterns-summary)
+
+### 3.5 Bridge System
+- [3.5.1 Bridge Architecture](#351-bridge-architecture) - IDE to CLI communication architecture
+- [3.5.2 Message Protocol](#352-message-protocol) - Bidirectional message format and handling
+- [3.5.3 JWT Authentication](#353-jwt-authentication) - Token generation and refresh
+- [3.5.4 IDE Integration](#354-ide-integration) - VS Code and JetBrains integration
+- [3.5.5 Bridge System Design Patterns Summary](#355-bridge-system-design-patterns-summary)
+
+> 📌 **Back to:** [Part 3](./Code-Research-Guide-Part3.md) - 3.1 Tool System, 3.2 Query Engine
+
+---
+
 ### 3.3 Command System
 
 The command system defines all commands that users can invoke via the slash (`/`) prefix.

@@ -5,6 +5,30 @@
 
 ---
 
+## 📑 Table of Contents
+
+### 3.1 Tool System
+- [3.1.1 Tool Interface Definition](#311-tool-interface-definition) - Core types and interfaces
+- [3.1.2 Tool Implementation Pattern](#312-tool-implementation-pattern) - Tool definition structure
+- [3.1.3 Permission Model Implementation](#313-permission-model-implementation) - Permission check flow
+- [3.1.4 Core Tool Implementation Cases](#314-core-tool-implementation-cases) - BashTool, FileReadTool, AgentTool
+- [3.1.5 Tool Registry](#315-tool-registry) - Tool loading and dead code elimination
+- [3.1.6 Tool System Design Patterns Summary](#316-tool-system-design-patterns-summary)
+
+### 3.2 Query Engine
+- [3.2.1 Core Architecture](#321-core-architecture) - QueryEngine class structure and configuration
+- [3.2.2 Query Loop Flow](#322-query-loop-flow) - Complete LLM interaction loop
+- [3.2.3 Streaming Response Processing](#323-streaming-response-processing) - SSE event handling and real-time UI updates
+- [3.2.4 Tool Call Coordination](#324-tool-call-coordination) - Tool execution and permission checks
+- [3.2.5 Cost Tracking and Budget Control](#325-cost-tracking-and-budget-control) - Usage statistics and budget checks
+- [3.2.6 Error Handling and Retry](#326-error-handling-and-retry) - Error categorization and retry logic
+- [3.2.7 Thinking Mode](#327-thinking-mode) - Extended thinking functionality
+- [3.2.8 Query Engine Design Patterns Summary](#328-query-engine-design-patterns-summary)
+
+> 📌 **Continue reading:** [Part 3 (Continued)](./Code-Research-Guide-Part3-Continued.md) - 3.3 Command System, 3.4 Permission System, 3.5 Bridge System
+
+---
+
 ## Part 3: Core Architecture Analysis
 
 ### 3.1 Tool System
